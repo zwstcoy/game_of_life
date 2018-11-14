@@ -57,9 +57,15 @@ function stop(){
 }
 
 function increment(n){
-	for(var i=0; i<n;i++){
-		runProgram();
+	if(live.length>0){
+		for(var i=0; i<n;i++){
+			runProgram();
+		}
 	}
+	else{
+		alert("Plaze Make a selection!!!")
+	}
+
 }
 
 //check conditation
