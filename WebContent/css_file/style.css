@@ -1,0 +1,22 @@
+@CHARSET "ISO-8859-1";
+.main{
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+}
+td{
+	padding:1px;
+	width:50px;
+	height:50px;
+}
+table{
+	background:pink;
+}
+table, th, td {
+    border: 1px solid black;
+}
+button{
+	width:100%;
+	height:100%;
+	background:white;
+}
