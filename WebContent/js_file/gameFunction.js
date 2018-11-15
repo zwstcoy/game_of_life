@@ -120,4 +120,19 @@ function checkN(n){
 	}
 	return count;
 }
-
+//life pattern
+function makePattern(s){
+	begin();
+	if(s==1){
+		 live = [35,36,45,46];
+	}
+	else if(s==2){
+		 live = [26,27,28];
+	}
+	else if(s==3){
+		live = [25,36,44,45,46];
+	}
+	for(var i=0;i<live.length;i++){
+		document.getElementById(live[i]).style.background="green";
+	}
+}
